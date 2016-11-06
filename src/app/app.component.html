@@ -1,10 +1,10 @@
-<md-sidenav-layout [class.m2app-dark]="isDarkTheme">
+<md-sidenav-layout [class.m2app-dark]="isDarkTheme" class="background-layout">
 
   <md-sidenav #sidenav mode="side" class="app-sidenav">
     Sidenav
   </md-sidenav>
 
-  <md-toolbar color="primary">
+  <md-toolbar color="primary" class="toolbar-main">
     <button class="app-icon-button" (click)="sidenav.toggle()">
       <i class="material-icons app-toolbar-menu">menu</i>
     </button>
@@ -17,6 +17,18 @@
   </md-toolbar>
 
   <div class="app-content">
+
+    <md-card>
+      <md-card-header>
+        <img md-card-avatar src="../assets/hot-suited-men-090213-14.png">
+        <md-card-title>Card name</md-card-title>
+        <md-card-subtitle>Goals or tagline</md-card-subtitle>
+      </md-card-header>
+      <md-card-content>
+        <img md-card-sm-image src="../assets/cute-cat.jpg">
+        <p>lorem ipsum and friends</p>
+      </md-card-content>
+    </md-card>
 
     <md-card>
       <button md-button>FLAT</button>

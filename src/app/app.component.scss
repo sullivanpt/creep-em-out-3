@@ -2,12 +2,21 @@ md-sidenav-layout.m2app-dark {
   background: black;
 }
 
+md-sidenav-layout.background-layout {
+  background: url('../assets/nature-beauty-girl.jpg') center / cover;
+}
+
+md-toolbar.toolbar-main {
+  opacity: 0.5;
+}
+
 .app-content {
   padding: 20px;
 }
 
 .app-content md-card {
   margin: 20px;
+  opacity: 0.8;
 }
 
 .app-sidenav {
