@@ -1,7 +1,9 @@
 /* tslint:disable:no-unused-variable */
 
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'; // See http://stackoverflow.com/a/39944688
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
 
 describe('App: CreepEmOut3', () => {
   beforeEach(() => {
@@ -9,6 +11,7 @@ describe('App: CreepEmOut3', () => {
       declarations: [
         AppComponent
       ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     });
   });
 

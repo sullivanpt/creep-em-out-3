@@ -5,10 +5,14 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { PersonaCardComponent } from './persona-card/persona-card.component';
+import { MaterialTestComponent } from './material-test/material-test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonaCardComponent,
+    MaterialTestComponent
   ],
   imports: [
     BrowserModule,
